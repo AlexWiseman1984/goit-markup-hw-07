@@ -20,6 +20,12 @@
   transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .section-clients__items {
@@ -31,10 +37,4 @@
 
 .section-clients__icon {
   fill: currentColor;
-}
-
-.section-clients__link:hover,
-.section-clients__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
 }
