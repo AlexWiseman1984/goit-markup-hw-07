@@ -762,7 +762,7 @@ address {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
+  gap: 8px;
 }
 
 .section-content__link {
